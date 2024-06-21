@@ -27,11 +27,12 @@ body {
 }
 
 .container {
-    border: 5px solid black;
+    border: 10px solid black;
     max-width: 400px;
     height: 400px;
     margin: 0 auto;
     position: relative;
+    background-color: #ffffff;
 }
 
 .top-div {
@@ -42,65 +43,46 @@ body {
 }
 
 .middle-div {
-    height: 220px;
+    height: 210px;
     width: 100%;
-    background-color: #fff;
+    background-color: #ffffff;
     position: relative;
 }
 
 .middle-div div {
     width: 100%;
     max-width: 130px;
-    height: 100px;
+    height: 90px;
 }
 
 .middle-div div:nth-child(1){
-    background-color: dodgerblue;
+    background-color: green;
     position: absolute;
     top: 10px;
     left: 30px;
 }
 
 .middle-div div:nth-child(2){
-    background-color: darkmagenta;
+    background-color: green;
     position: absolute;
     top: 10px;
     right: 30px;
 }
 
 .middle-div div:nth-child(3){
-    background-color:aqua;
+    background-color: yellow;
     position: absolute;
     bottom: 0;
     left: 30px;
 }
 
 .middle-div div:nth-child(4){
-    background-color:crimson;
+    background-color: yellow;
     position: absolute;
     bottom: 0;
     right: 30px;
 }
 
-/* 
-
-.middle-div-top {
-    height: 100px;
-    width: 100%;
-    background-color: green;
-}
-
-.middle-div-upper-left {
-    background-color: pink;
-    width: 50%;
-    height: 100px;
-}
-
-.middle-div-bottom {
-    height: 100px;
-    width: 100%;
-    background-color: yellow;
-} */
 
 .bottom-div {
     height: 75px;
