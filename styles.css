@@ -13,17 +13,54 @@ body {
     color: #fff;
     text-align: center;
     padding: 32px;
-    text-transform: capitalize;
     border-bottom: 4px solid #fdb347;
 }
 
 .header h1 {
     margin-bottom: 2px;
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    line-height: 2.0rem;
+    font-size: 2.2rem;
 }
 
 .header p {
-    font-style: italic;
-    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header p #date{
+    font-size: 0.9rem;
+}
+
+.header p #by {
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+.header p #author{
+    /* font-style: italic; */
+    font-family: cursive;
+    margin-left: 5px;
+}
+
+.header p img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 5px;
+    transform: scaleX(-1);
+}
+
+.header p img:hover {
+    transform: scaleX(-1);
+    transform: scale(2);
+    cursor: pointer;
 }
 
 .container {
