@@ -30,7 +30,7 @@ body {
     border: 10px solid black;
     max-width: 340px;
     height: 400px;
-    margin: 0 auto;
+    margin: 15px auto;
     position: relative;
     background-color: #ffffff;
 }
